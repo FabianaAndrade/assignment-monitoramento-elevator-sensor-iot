@@ -91,12 +91,9 @@ DB_PORT=             # porta do postgres
 DB_NAME=             # nome database postgres
 DB_USER=             # usuario postgres
 DB_PASSWORD=         # senha postgres
-MB_DB_TYPE=          
-MB_DB_DBNAME=
-MB_DB_PORT=
-MB_DB_USER=
-MB_DB_PASS=
-MB_DB_HOST=
+MB_DB_PORT=          # porta para o metabase
+MB_DB_USER=          # usuario metabase
+MB_DB_PASS=          # senha acesso metabase
 ```
 Caso não sejam definidas serão usumidos valores defaults
 
