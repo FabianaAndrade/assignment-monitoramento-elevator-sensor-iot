@@ -22,16 +22,16 @@ PostgreSQL: Base da dos relacional para persistencia dos dados
 
 Metabase: ferramenta open source para visualização e monitoramento dos eventos
 
-Schema mensagens trasmitidas:
+Schema das mensagens transmitidas:
 ```text
 {
-            'timestamp': '2016-02-09 21:17:10.261817',
-            'event_id': 'elevator_event_8028',
-            'door_status': 'opened',
-            'movement_detected': True,
-            'duration_open_seconds': 12,
-            'person_passed': False,
-            'sensor_id': 'door_09'
+ 'timestamp': '2016-02-09 21:17:10.261817',    # momento do evento
+ 'event_id': 'elevator_event_8028',            # identificador do evento
+ 'door_status': 'opened',                      # status da prota: aberta ou fechada
+ 'movement_detected': True,                    # se o evento registrou um movimento: True ou false
+ 'duration_open_seconds': 12,                  # tempo que a porta ficou aberta
+ 'person_passed': False,                       # se houve registro de uma pessoa passando: True ou false
+ 'sensor_id': 'door_09'                        # identificador da porta do elevador
 }
 ```
 
