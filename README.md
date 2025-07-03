@@ -58,6 +58,12 @@ Metabase: ferramenta open source para visualização e monitoramento dos eventos
 
 # Utilização
 
+Tenha previamente instalado:
+```text
+- Docker e Docker-compose
+```
+
+
 
 
 
