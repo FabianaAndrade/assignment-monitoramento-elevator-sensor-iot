@@ -22,23 +22,24 @@ PostgreSQL: Base da dos relacional para persistencia dos dados
 
 Metabase: ferramenta open source para visualização e monitoramento dos eventos
 
+
+```text
 /app
 │
 ├── producer/
-│ ├── __init__.py
-│ ├── elevator_sensor.py
-│ └── sensor_producer.py # produtor de eventos
+│   ├── __init__.py
+│   ├── elevator_sensor.py
+│   └── sensor_producer.py        # Produtor de eventos
 │
 ├── utils/
-│ ├── __init__.py
-│ └── Logger.py # Classe utilitária para logging
-│ └── elevator_models.py # Classe utilitária para logging
+│   ├── __init__.py
+│   ├── Logger.py                 # Classe utilitária para logging
+│   └── elevator_models.py        # Base model para validar um event emitido
 │
-└── Dockerfile.producer
-│
-└── Dockerfile.consumer
-│
-└── docker-compose.yml
+├── Dockerfile.producer           # Dockerfile para o produtor
+├── Dockerfile.consumer           # Dockerfile para o consumidor
+└── docker-compose.yml            # Orquestração dos serviços com Docker
+```
 
 
 
