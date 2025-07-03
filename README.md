@@ -83,15 +83,15 @@ Tenha previamente instalado:
 Crie um arquivo .env na raiz do projeto com os valores das variaveis
 
 ```text
-KAFKA_BROKER=
-TOPIC_NAME=
-GROUP_ID=
-DB_HOST =
-DB_PORT=
-DB_NAME=
-DB_USER=
-DB_PASSWORD=
-MB_DB_TYPE=
+KAFKA_BROKER=        # endpoint do cluster Kafka
+TOPIC_NAME=          # nome do topico kafka
+GROUP_ID=            # nome do grupo de consumidores
+DB_HOST =            # host do postgres
+DB_PORT=             # porta do postgres
+DB_NAME=             # nome database postgres
+DB_USER=             # usuario postgres
+DB_PASSWORD=         # senha postgres
+MB_DB_TYPE=          
 MB_DB_DBNAME=
 MB_DB_PORT=
 MB_DB_USER=
