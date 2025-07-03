@@ -114,7 +114,8 @@ docker-compose down
 ```
 6. Execucao de testes unitarios
 ```text
-docker exec -it assignment-monitoramento-elevator-sensor-iot pytest
+docker build -f Dockerfile.tests -t tests_sensor .
+docker run --rm tests_sensor
 ```
 
 
