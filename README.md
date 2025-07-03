@@ -80,24 +80,26 @@ Tenha previamente instalado:
 - git clone https://github.com/FabianaAndrade/assignment-monitoramento-elevator-sensor-iot.git
 ```
 2. Defina as váriaveis de ambientes
-```text
 Crie um arquivo .env na raiz do projeto com os valores das variaveis
-            KAFKA_BROKER=
-            TOPIC_NAME=
-            GROUP_ID=
-            DB_HOST =
-            DB_PORT=
-            DB_NAME=
-            DB_USER=
-            DB_PASSWORD=
-            MB_DB_TYPE=
-            MB_DB_DBNAME=
-            MB_DB_PORT=
-            MB_DB_USER=
-            MB_DB_PASS=
-            MB_DB_HOST=
-Caso não sejam definidas serão usumidos valores defaults
+
+```text
+KAFKA_BROKER=
+TOPIC_NAME=
+GROUP_ID=
+DB_HOST =
+DB_PORT=
+DB_NAME=
+DB_USER=
+DB_PASSWORD=
+MB_DB_TYPE=
+MB_DB_DBNAME=
+MB_DB_PORT=
+MB_DB_USER=
+MB_DB_PASS=
+MB_DB_HOST=
 ```
+Caso não sejam definidas serão usumidos valores defaults
+
 3. Inicie os containers
 ```text
 docker-compose up --build 
