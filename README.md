@@ -74,12 +74,12 @@ Schema das mensagens transmitidas:
 
 Tenha previamente instalado:
 ```text
-- Docker e Docker-compose
+Docker e Docker-compose
 ```
 
 1. Clone o repo
 ```text
-- git clone https://github.com/FabianaAndrade/assignment-monitoramento-elevator-sensor-iot.git
+ git clone https://github.com/FabianaAndrade/assignment-monitoramento-elevator-sensor-iot.git
 ```
 2. Defina as váriaveis de ambientes
 Crie um arquivo .env na raiz do projeto com os valores das variaveis
