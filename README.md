@@ -65,7 +65,7 @@ Tenha previamente instalado:
 
 1. Clone o repo
 ```text
-- git clone 
+- git clone https://github.com/FabianaAndrade/assignment-monitoramento-elevator-sensor-iot.git
 ```
 2. Defina as váriaveis de ambientes
 ```text
