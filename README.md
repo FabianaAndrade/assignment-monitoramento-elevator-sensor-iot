@@ -9,3 +9,7 @@ Essas informações do sensor precisam ser capturadas e persistidas para posteri
 Dado essa situação-problema foi desenvolvido essse fluxo streaming para transporte dos dados.
 A solução consiste em implementar o produtor, ou seja, o sensor do elevador que produz os dados, que disponibiliza (publica) os eventos gerados em um tópico kafka para que o consumidor dos eventos capture essas informações em tempo-real e persista os dados em um banco de dados.
 
+# Arquitetura-macro
+![Sem título-2025-07-02-2113](https://github.com/user-attachments/assets/46c37a66-d9f2-422b-9d0c-0247a72a0d7c)
+
+
