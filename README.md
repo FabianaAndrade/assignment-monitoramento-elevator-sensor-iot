@@ -80,6 +80,14 @@ docker-compose up --build
 - Para acompanhar pela UI do Kafka as mensagens transmitidas: http://localhost:8080 (caminho default)
 - Para acompanhar o dashboard com metricas de eventos no Metabase: http://localhost:3000 (caminho default)
 ```
+5. Desligando os serviços
+```text
+docker-compose down
+```
+6. Execucao de testes unitarios
+```text
+docker exec -it assignment-monitoramento-elevator-sensor-iot pytest
+```
 
 
 
