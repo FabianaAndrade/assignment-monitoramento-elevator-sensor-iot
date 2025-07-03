@@ -1,0 +1,12 @@
+FROM python:3.9
+
+WORKDIR /app
+
+COPY producer ./producer
+COPY utils ./utils
+
+RUN pip install kafka-python faker pydantic python-dotenv
+
+ENV PYTHONPATH=/app
+
+CMD ["python", "producer/sensor_producer.py"]

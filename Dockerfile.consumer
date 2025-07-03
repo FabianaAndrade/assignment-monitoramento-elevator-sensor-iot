@@ -1,0 +1,13 @@
+FROM python:3.9
+
+WORKDIR /app
+
+COPY consumer ./consumer
+COPY database ./database
+COPY utils ./utils
+
+RUN pip install kafka-python python-dotenv psycopg2 pydantic
+
+ENV PYTHONPATH=/app
+
+CMD ["python", "consumer/sensor_consumer.py"]
