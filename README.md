@@ -14,7 +14,7 @@ A solução consiste em implementar o produtor, ou seja, o sensor do elevador qu
 
 Producer: Gerencia produção dos dados do sensor e os dispobiliza no tópico Kafka
 
-Tópico kafka: Gencia a transmissão das mensagens por streaming
+Tópico kafka: Gerenncia a transmissão das mensagens por streaming
 
 Consumer: Captura as mensagens dispobilizadas no tópico e persiste no banco de dados
 
