@@ -96,6 +96,18 @@ services:
       - postgres
     networks:
       - kafka-network
+  test:
+    build:
+      context: .
+      dockerfile: Dockerfile.tests
+    volumes:
+      - .:/app
+    depends_on:
+      - kafka
+      - postgres
+    networks:
+      - kafka-network
+
 
 networks:
   kafka-network:
