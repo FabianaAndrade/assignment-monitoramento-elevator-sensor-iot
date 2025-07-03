@@ -30,11 +30,26 @@ Metabase: ferramenta open source para visualização e monitoramento dos eventos
 │   ├── __init__.py
 │   ├── elevator_sensor.py
 │   └── sensor_producer.py        # Produtor de eventos
+│ 
+├── consumer/
+│   ├── __init__.py
+│   └── sensor_consumer.py        # consumidor eventos
+│
+├── database/
+│   ├── __init__.py
+│   └── elevator_event_db.py      # persistencia dos eventos
 │
 ├── utils/
 │   ├── __init__.py
 │   ├── Logger.py                 # Classe utilitária para logging
 │   └── elevator_models.py        # Base model para validar um event emitido
+│ 
+├── tests/
+│   ├── __init__.py
+│   └── tests.py                  # testes unitarios
+│
+├── init-db/
+│   └── init-metabase-db.sql      # Criacao do db para o metabase
 │
 ├── Dockerfile.producer           # Dockerfile para o produtor
 ├── Dockerfile.consumer           # Dockerfile para o consumidor
