@@ -63,8 +63,21 @@ Tenha previamente instalado:
 - Docker e Docker-compose
 ```
 
-
-
+1. Clone o repo
+```text
+- git clone 
+```
+2. Defina as váriaveis de ambientes
+```text
+- git clone 
+```
+3. Inicie os containers
+```text
+docker-compose up --build 
+```
+4. Navegação
+-Para acompanhar pela UI do Kafka as mensagens transmitidas: http://localhost:8080 (caminho default)
+-Para acompanhar o dashboard com metricas de eventos no Metabase: http://localhost:3000 (caminho default)
 
 
 
