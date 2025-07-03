@@ -56,6 +56,9 @@ Metabase: ferramenta open source para visualização e monitoramento dos eventos
 └── docker-compose.yml            # Orquestração dos serviços com Docker
 ```
 
+# Utilização
+
+
 
 
 
