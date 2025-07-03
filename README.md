@@ -13,9 +13,13 @@ A solução consiste em implementar o produtor, ou seja, o sensor do elevador qu
 ![Sem título-2025-07-02-2113](https://github.com/user-attachments/assets/46c37a66-d9f2-422b-9d0c-0247a72a0d7c)
 
 Producer: Gerencia produção dos dados do sensor e os dispobiliza no tópico Kafka
+
 Tópico kafka: Gencia a transmissão das mensagens por streaming
+
 Consumer: Captura as mensagens dispobilizadas no tópico e persiste no banco de dados
+
 PostgreSQL: Base da dos relacional para persistencia dos dados
+
 Metabase: ferramenta open source para visualização e monitoramento dos eventos
 
 
