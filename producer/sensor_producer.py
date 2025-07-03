@@ -46,9 +46,9 @@ class SensorProducer:
     
 if __name__ == "__main__":
     load_dotenv()
-    KAFKA_BROKER = os.getenv("KAFKA_BROKER")
-    TOPIC_NAME = os.getenv("TOPIC_NAME")
-    
+    KAFKA_BROKER = os.getenv("KAFKA_BROKER", "kafka:9092")
+    TOPIC_NAME = os.getenv("TOPIC_NAME", "elevator_events")
+
     logger_instance = Logger()
     logger_instance.info("iniciando a captura de eventos do sensor de elevador...")
     logger_instance.info(f"conectando ao Kafka Broker: {KAFKA_BROKER} no tópico: {TOPIC_NAME}")
