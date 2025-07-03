@@ -58,11 +58,13 @@ Schema mensagens trasmitidas:
 │ 
 ├── tests/
 │   ├── __init__.py
-│   └── tests.py                  # testes unitarios
+│   └── test_sensor.py                  # testes unitarios
 │
 ├── init-db/
 │   └── init-metabase-db.sql      # Criacao do db para o metabase
 │
+├── requirements.txt              # modulos requeridos
+├── Dockerfile.tests              # Dockerfile com as definicoes para o ambiente de teste
 ├── Dockerfile.producer           # Dockerfile para o produtor
 ├── Dockerfile.consumer           # Dockerfile para o consumidor
 └── docker-compose.yml            # Orquestração dos serviços com Docker
