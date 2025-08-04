@@ -16,7 +16,7 @@ Producer: Gerencia produção dos dados do sensor e os dispobiliza no tópico Ka
 
 Tópico kafka: Gerenncia a transmissão das mensagens por streaming
 
-Consumer: Captura as mensagens dispobilizadas no tópico e persiste no banco de dados
+Consumer: Captura as mensagens disponibilizadas no tópico e persiste no banco de dados
 
 PostgreSQL: Base da dos relacional para persistencia dos dados
 
